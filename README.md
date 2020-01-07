@@ -6,10 +6,10 @@ Este "programa" foi desenvolvido em 7.5.2019 para atender as obrigações da dis
 
 .                                               |  .
 :----------------------------------------------:|:------------------------------------------------:
-<img src="/estagios/0-orig.jpg" width="240">    |  <img src="/estagios/1-mask.jpg" width="240">
-<img src="/estagios/2-gray.jpg" width="240">    |  <img src="/estagios/3-blur.jpg" width="240">
-<img src="/estagios/4-edge.jpg" width="240">    |  <img src="/estagios/5-dilate.jpg" width="240">
-<img src="/estagios/6-erode.jpg" width="240">    |  <img src="/estagios/7-contours.jpg" width="240">
+<img src="/estagios/0-orig.jpg" width="480">    |  <img src="/estagios/1-mask.jpg" width="480">
+<img src="/estagios/2-gray.jpg" width="480">    |  <img src="/estagios/3-blur.jpg" width="480">
+<img src="/estagios/4-edge.jpg" width="480">    |  <img src="/estagios/5-dilate.jpg" width="480">
+<img src="/estagios/6-erode.jpg" width="480">    |  <img src="/estagios/7-contours.jpg" width="480">
 
 ## Comparações
 
@@ -17,7 +17,7 @@ Original                                        |  Processada
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/comparacoes/q120404-01.jpg" width="480">    |  <img src="/comparacoes/q120404-01.jpg-out.jpg" width="480">
 
-Para mais comparações, acesse o diretório (comparacoes)[https://github.com/jcbrtl/pycb/tree/master/comparacoes].
+Para mais comparações, acesse o diretório [comparacoes](https://github.com/jcbrtl/pycb/tree/master/comparacoes).
 
 
 ## Agradecimentos
