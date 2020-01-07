@@ -6,11 +6,11 @@ Este "programa" foi desenvolvido em 7.5.2019 para atender às obrigações da di
 ### Estágios do processo
 O processo está documentado no código (*pycb.py*).
 
-Original                                        |  1. Máscara (faixa de cor)
+Original                                        |  (1) Máscara (faixa de cor)
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/0-orig.jpg" width="480">    |  <img src="/estagios/1-mask.jpg" width="480">
 
-\2. Escala de cinza                             |  3. Desfocagem gaussiana
+(2) Escala de cinza                             |  (3) Desfocagem gaussiana
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/2-gray.jpg" width="480">    |  <img src="/estagios/3-blur.jpg" width="480">
 
