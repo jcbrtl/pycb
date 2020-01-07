@@ -14,11 +14,11 @@ Original                                        |  (1) Máscara (faixa de cor)
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/2-gray.jpg" width="480">    |  <img src="/estagios/3-blur.jpg" width="480">
 
-4. Detecção de borda                            |  5. Dilatação
+(4) Detecção de borda                           |  (5) Dilatação
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/4-edge.jpg" width="480">    |  <img src="/estagios/5-dilate.jpg" width="480">
 
-6. Corrosão                                     |  7. Contorno
+(6) Corrosão                                    |  (7) Contorno
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/6-erode.jpg" width="480">   |  <img src="/estagios/7-contours.jpg" width="480">
 
