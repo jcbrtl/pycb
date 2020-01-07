@@ -3,23 +3,26 @@
 Este "programa" foi desenvolvido em 7.5.2019 para atender às obrigações da disciplina *Processamento de Imagens Médicas* da USP-RP (FFCLRP). Ele conta colônias da bactéria __*Staphilococcus aureus*__ em placas de ágar -- obviamente, mudando-se poucas variáveis é possível a quantificação de variadas categorias de "coisas".
 
 
-## Estágios do processo
+### Estágios do processo
 O processo está documentado no código (*pycb.py*).
 
 Original                                        |  1. Máscara (faixa de cor)
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/0-orig.jpg" width="480">    |  <img src="/estagios/1-mask.jpg" width="480">
+
 2. Escala de cinza                              |  3. Desfocagem gaussiana
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/2-gray.jpg" width="480">    |  <img src="/estagios/3-blur.jpg" width="480">
+
 4. Detecção de borda                            |  5. Dilatação
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/4-edge.jpg" width="480">    |  <img src="/estagios/5-dilate.jpg" width="480">
+
 6. Corrosão                                     |  7. Contorno
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/6-erode.jpg" width="480">   |  <img src="/estagios/7-contours.jpg" width="480">
 
-## Comparações
+### Comparações
 
 Original                                               |  Processada
 :-----------------------------------------------------:|:------------------------------------------------:
@@ -38,7 +41,7 @@ Amostras das placas obtidas em: http://opencfu.sourceforge.net/samples.php
 > $ python3 pycb.py -i [arquivo_imagem]
 
 ## Retorno
-Retorna o número de objetos encontrados e exibe o trabalho final visualmente em uma janela.
+Retorna a contagem e exibe o resultado visualmente em uma janela.
 
 ## Licença
 ```
