@@ -31,16 +31,23 @@ Original                                               |  Processada
 Para mais comparações, acesse o diretório [comparacoes](https://github.com/jcbrtl/pycb/tree/master/comparacoes).
 
 
-## Agradecimentos
+### Agradecimentos
 Amostras das placas obtidas em: http://opencfu.sourceforge.net/samples.php
 
-## Dependências
+## Instalação e uso
+### Download
+> $ git clone https://github.com/jcbrtl/pycb.git #ou https://github.com/jcbrtl/pycb/archive/master.zip
+
+### Dependências
+- [Python](https://www.python.org/downloads/)
+- [pip](https://pip.pypa.io/en/stable/installing/)
+
 > $ pip3 install numpy argparse imutils opencv-python
 
-## Uso
+### Uso
 > $ python3 pycb.py -i [arquivo_imagem]
 
-## Retorno
+### Retorno
 Retorna a contagem e exibe o resultado visualmente em uma janela.
 
 ## Licença
