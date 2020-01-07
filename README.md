@@ -1,15 +1,26 @@
 # pycb
 ## PYCB, um Contador de 'Bactéria' em Python
-Este "programa" foi desenvolvido em 7.5.2019 para atender as obrigações da disciplina *Processamento de Imagens Médicas* da USP-RP (FFCLRP). Ele conta colônias da bactéria Staphilococcus aureus em placas de ágar. O processo está documentado no código (*pycb.py*).
+Este "programa" foi desenvolvido em 7.5.2019 para atender as obrigações da disciplina *Processamento de Imagens Médicas* da USP-RP (FFCLRP). Ele conta colônias da bactéria *Staphilococcus aureus* em placas de ágar -- obviamente, mudando-se poucas variáveis é possível a quantificação de variadas categorias de "coisas".
+
 
 ## Estágios do processo
+O processo está documentado no código (*pycb.py*).
 
-.                                               |  .
+Original                                        |  Máscara (faixa de cor)
 :----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/0-orig.jpg" width="480">    |  <img src="/estagios/1-mask.jpg" width="480">
+
+Escala de cinza                                 |  Desfocagem gaussiana
+:----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/2-gray.jpg" width="480">    |  <img src="/estagios/3-blur.jpg" width="480">
+
+Detecção de borda                               |  Dilatação
+:----------------------------------------------:|:------------------------------------------------:
 <img src="/estagios/4-edge.jpg" width="480">    |  <img src="/estagios/5-dilate.jpg" width="480">
-<img src="/estagios/6-erode.jpg" width="480">    |  <img src="/estagios/7-contours.jpg" width="480">
+
+Corrosão                                        |  Contorno
+:----------------------------------------------:|:------------------------------------------------:
+<img src="/estagios/6-erode.jpg" width="480">   |  <img src="/estagios/7-contours.jpg" width="480">
 
 ## Comparações
 
